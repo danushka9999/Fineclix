@@ -1,0 +1,302 @@
+
+
+body { 
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 0px 10px 0px 0px;
+  
+}
+
+.header a {
+  float: left;
+  padding: 12px;
+ 
+}
+.logo {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.header a.active {
+  background-color:  rgb(203, 30, 255);
+  color: black;
+  text-decoration: none;
+  
+
+}
+
+.header-right {
+  float: center;
+  padding: 50px 12px 10px 400px ;
+
+ 
+}
+.header-right a.offline {
+  text-decoration: none;
+  color:  black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.logo1 {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40px;
+  float: right;
+}
+ 
+.headeruser a {
+  float: right;
+  
+  padding: 1px 20px 1px 10px;
+ 
+}
+.footer {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: rgb(203, 30, 255);
+  text-align: center;
+  z-index: -1;
+  
+}
+.verticalDiscover {
+  width: 200px;
+  position: absolute;
+  
+  
+  
+}
+
+.verticalDiscover a {
+  
+  
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.verticalDiscover a:hover {
+  background-color: #ccc;
+}
+.verticalPhotographer {
+ position: absolute;
+  width: 200px;
+  left:200px;
+
+  
+}
+
+.verticalPhotographer a {
+  
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  
+}
+
+.verticalPhotographer a:hover {
+  background-color: #ccc;
+}
+.verticalCompany {
+  position: absolute;
+   width: 200px;
+   left:400px;
+ 
+   
+ }
+ 
+ .verticalCompany a {
+   
+   color: black;
+   display: block;
+   padding: 12px;
+   text-decoration: none;
+   
+ }
+ 
+ .verticalCompany a:hover {
+   background-color: #ccc;
+ }
+
+ .verticalNeedHelp {
+  position: absolute;
+   width: 200px;
+   left:600px;
+ 
+   
+ }
+ 
+ .verticalNeedHelp a {
+   
+   color: black;
+   display: block;
+   padding: 12px;
+   text-decoration: none;
+   
+ }
+ 
+ .verticalNeedHelp a:hover {
+   background-color: #ccc;
+ }
+ .opentime{
+   font-size:10px;
+ }
+ .line{
+   position: relative;
+  
+ }
+ .logo2 {
+   position:absolute;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100px;
+  left:1000px;
+}
+
+.logo3 {
+  position: absolute;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+  left:1000px;
+  top:100px;
+  
+}
+.line1{
+
+  position: relative;
+  top:230px;
+}
+
+.logo4{
+  position:absolute;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  top: 240px;
+  left:10px
+  
+
+}
+
+.logo4:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.logo3:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.logo2:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.create{
+  position: absolute;
+  font-size:10px;
+  color:rgb(203, 30, 255);
+  top:250px;
+  left:80px;
+}
+.logo5{
+  position:absolute;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  top: 250px;
+  left:1000px
+  
+
+}
+.logo6{
+  position:absolute;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  top: 250px;
+  left:1050px
+  
+
+}
+.logo7{
+  position:absolute;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  top: 250px;
+  left:1100px
+  
+
+}
+.logo8{
+  position:absolute;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  top: 250px;
+  left:1150px
+  
+
+}
+.logo5:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.logo6:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.logo7:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.logo8:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.line2{
+
+  position: relative;
+  top:280px;
+}
+
+
+
+
+
+ 

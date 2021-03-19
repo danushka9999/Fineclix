@@ -1,0 +1,386 @@
+body { 
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.slide-box{
+    width:1349px;
+    height:563px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    text-align: center;
+
+}
+.image-box{
+
+    width:5396px;
+    height:563px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+
+}
+.slide-image{
+    float:left;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.button-box{
+    top:-20px;
+    position: relative;
+
+}
+.slide-button{
+    display: inline-block;
+    height:10px;
+    width:10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+.button-box-1{
+    top:-580px;
+    position: relative;
+
+}
+.slide-button-1{
+    display: inline-block;
+    height:10px;
+    width:10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+#slide-image-1:target ~ .image-box{
+    left:0px;
+}
+#slide-image-2:target ~ .image-box{
+    left:-1349px;
+}
+#slide-image-3:target ~ .image-box{
+    left:-2698px;
+}
+#slide-image-4:target ~ .image-box{
+    left:-4047px;
+}
+.slide-box .slcontent {
+    position: absolute;
+    bottom: 20px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+    color: #e2dcdc;
+    width: 1349px;
+    margin-left: 0px;
+    margin-right:0px;
+  }
+  .eventtypes{
+    margin-top:0px ;
+    width: 100%;
+    background-color: aliceblue;
+    height: 550px;
+    text-align: center;
+
+
+
+
+  }
+   .pevents{
+    font-weight: 500;
+      color: blueviolet;
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+  .weddingEvent{
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(223, 231, 238);
+    width: 300px;
+    height: 400px;
+    color: slategray;
+
+
+  }
+  
+  .trendingwedding{
+      float: center;
+    width: 80px;
+    height: 80px;
+
+  }
+  .weddinghead{
+      color: blueviolet;
+      
+
+  }
+  .weddingEvent:hover{
+      background-color: rgba(223, 231, 238, 0);
+      cursor: grab;
+      
+  }
+  .weddingcolor{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .weddingEvent-1{
+    float: left;
+    margin-left: 205px;
+    background-color: rgb(223, 231, 238);
+    width: 300px;
+    height: 400px;
+    color: slategray;
+
+
+  }
+  .weddingEvent-1:hover{
+    background-color: rgba(223, 231, 238, 0);
+    cursor: grab;
+  }
+
+  .weddingEvent-2{
+    float: left;
+    margin-left: 195px;
+    background-color: rgb(223, 231, 238);
+    width: 300px;
+    height: 400px;
+    color: slategray;
+
+
+  }
+  .weddingEvent-2:hover{
+    background-color: rgba(223, 231, 238, 0);
+    cursor: grab;
+  }
+
+h1{
+    margin: 0;
+}
+.happyclient{
+    width:100%;
+  background-color: #e9e3e3;
+    text-align: center;
+    height:200px;
+
+
+}
+.happyclient:hover{
+  background-color: #e9e3e300;
+  cursor: pointer;
+  
+}
+.happycl{
+        padding-top:10px ;
+        padding-bottom: 20px;
+      color: blueviolet;
+      font-weight: 500;
+      
+}
+q{
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.authour{
+    color: rgb(0, 0, 0);
+}
+.teammembers{
+  margin-top:0px ;
+  width: 100%;
+  background-color: aliceblue;
+  height: 1400px;
+  text-align: center;
+
+
+
+
+}
+ .pteam{
+  font-weight: 500;
+    color: blueviolet;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+.teammember-1{
+  float: left;
+  margin-left: 130px;
+  background-color: rgb(223, 231, 238);
+  width: 263px;
+  height: 600px;
+  color: slategray;
+
+
+}
+.teammember-2{
+  float: left;
+  margin-left: 150px;
+  background-color: rgb(223, 231, 238);
+  width: 263px;
+  height: 600px;
+  color: slategray;
+
+
+}
+.teammember-3{
+  float: left;
+  margin-left: 150px;
+  background-color: rgb(223, 231, 238);
+  width: 263px;
+  height: 600px;
+  color: slategray;
+
+
+}
+.teammember-4{
+  float: left;
+  margin-left: 330px;
+  margin-top: 50px;
+  background-color: rgb(223, 231, 238);
+  width: 263px;
+  height: 600px;
+  color: slategray;
+
+
+}
+.teammember-5{
+  float: left;
+  margin-left: 150px;
+  margin-top: 50px;
+  background-color: rgb(223, 231, 238);
+  width: 263px;
+  height: 600px;
+  color: slategray;
+
+
+}
+.teamimage{
+
+width: 263px;
+height: 320px;
+
+}
+
+.teammember-1:hover{
+    background-color: rgba(223, 231, 238, 0);
+    cursor: grab;
+    
+}
+.teammember-2:hover{
+  background-color: rgba(223, 231, 238, 0);
+  cursor: grab;
+  
+}
+.teammember-3:hover{
+  background-color: rgba(223, 231, 238, 0);
+  cursor: grab;
+  
+}
+.teammember-4:hover{
+  background-color: rgba(223, 231, 238, 0);
+  cursor: grab;
+  
+}
+.teammember-5:hover{
+  background-color: rgba(223, 231, 238, 0);
+  cursor: grab;
+  
+}
+.teamp{
+  text-align: left;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.line{
+  margin-top: 0;
+}
+.open-button {
+  background-color:blueviolet;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 150px;
+  border-radius: 20px;
+  outline: transparent;
+}
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  outline: transparent;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 8px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border: none;
+  outline: transparent;
+  border-radius: 20px;
+}
+
+
+.form-container textarea {
+  width: 250px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 150px;
+}
+
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: blueviolet;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 12px;
+  outline: transparent;
+}
+
+
+.form-container .cancel {
+  background-color:blueviolet;
+  border-radius: 12px;
+  outline: transparent;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+ 
+

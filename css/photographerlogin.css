@@ -1,0 +1,496 @@
+body { 
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .header {
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 0px 10px 0px 0px;
+    
+  }
+  
+  .header a {
+    float: left;
+    padding: 12px;
+   
+  }
+  .logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  
+  .header a.active {
+    background-color:  rgb(203, 30, 255);
+    color: black;
+    text-decoration: none;
+    
+  
+  }
+  
+  
+  .header-right {
+    float: center;
+    padding: 50px 12px 10px 400px ;
+  
+   
+  }
+  .header-right a.offline {
+    text-decoration: none;
+    color:  black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .logo1 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40px;
+    float: right;
+  }
+   
+  .headeruser a {
+    float: right;
+    
+    padding: 1px 20px 1px 10px;
+   
+  }
+  .footer {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(203, 30, 255);
+    text-align: center;
+    z-index: -1;
+    
+  }
+  .verticalDiscover {
+    width: 200px;
+    position: absolute;
+    
+    
+    
+  }
+  
+  .verticalDiscover a {
+    
+    
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .verticalDiscover a:hover {
+    background-color: #ccc;
+  }
+  .verticalPhotographer {
+   position: absolute;
+    width: 200px;
+    left:200px;
+  
+    
+  }
+  .verticalPhotographer a.active{
+    background-color:  rgb(203, 30, 255);
+    color: black;
+    text-decoration: none;
+  }
+  
+  .verticalPhotographer a {
+    
+    color:black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    
+  }
+  
+  .verticalPhotographer a:hover {
+     background-color: #ccc;
+     
+  }
+  .verticalCompany {
+    position: absolute;
+     width: 200px;
+     left:400px;
+   
+     
+   }
+   
+   .verticalCompany a {
+     
+     color: black;
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+     
+   }
+   
+   .verticalCompany a:hover {
+     background-color: #ccc;
+   }
+  
+   .verticalNeedHelp {
+    position: absolute;
+     width: 200px;
+     left:600px;
+   
+     
+   }
+   
+   .verticalNeedHelp a {
+     
+     color: black;
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+     
+   }
+   
+   .verticalNeedHelp a:hover {
+     background-color: #ccc;
+   }
+   .opentime{
+     font-size:10px;
+   }
+   .line{
+     position: relative;
+    
+   }
+   .logo2 {
+     position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    left:1000px;
+  }
+  
+  .logo3 {
+    position: absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    left:1000px;
+    top:100px;
+    
+  }
+  .line1{
+  
+    position: relative;
+    top:230px;
+  }
+  
+  .logo4{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    top: 240px;
+    left:10px
+    
+  
+  }
+  
+  .logo4:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo3:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo2:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .create{
+    position: absolute;
+    font-size:10px;
+    color:rgb(203, 30, 255);
+    top:250px;
+    left:80px;
+  }
+  .logo5{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1000px
+    
+  
+  }
+  .logo6{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1050px
+    
+  
+  }
+  .logo7{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1100px
+    
+  
+  }
+  .logo8{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1150px
+    
+  
+  }
+  .logo5:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo6:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo7:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo8:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .line2{
+  
+    position: relative;
+    top:280px;
+  }
+  .login{
+    width:460px;
+    height:478px;
+    background-color:transparent;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+
+  }
+  .hrequired-1{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    
+  }
+  .hrequired-1 h1{
+    font-weight: 400;
+    
+
+
+  }
+  .hrequired-22{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:transparent;
+    margin-top: -20px;
+    
+  }
+  .hrequired-22 p{
+    font-weight: 400;
+    font-size: larger;
+    
+
+
+  }
+
+  .hrequired-22{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    margin-top: -20px;
+    
+  }
+  input[type=text], input[type=password] {
+    width: 420px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 12px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .logintofineclix{
+    position: relative;
+    background-color:blueviolet;
+    color: white;
+    padding: 14px 20px;
+    margin: -30px 0px 10px 250px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 0.9;
+    border-radius: 12px;
+    
+
+
+  }
+  .logintofineclix:hover{
+    opacity:1;
+  }
+  .link-1{
+    text-decoration: none;
+    font-weight: 700;
+
+  }
+  .open-button {
+    background-color:blueviolet;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 150px;
+    border-radius: 20px;
+    outline: transparent;
+  }
+  
+  
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    outline: transparent;
+  }
+  
+  
+  .form-container {
+    max-width: 300px;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    outline: transparent;
+    border-radius: 20px;
+  }
+  
+  
+  .form-container textarea {
+    width: 250px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 150px;
+  }
+  
+  
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  .form-container .btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 12px;
+    outline: transparent;
+  }
+  
+  
+  .form-container .cancel {
+    background-color:blueviolet;
+    border-radius: 12px;
+    outline: transparent;
+  }
+  
+  
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  ul.breadcrumb {
+    position: absolute;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: transparent;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+  

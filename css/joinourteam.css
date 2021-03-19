@@ -1,0 +1,745 @@
+body { 
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .header {
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 0px 10px 0px 0px;
+    
+  }
+  
+  .header a {
+    float: left;
+    padding: 12px;
+   
+  }
+  .logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  
+  .header a.active {
+    background-color:  rgb(203, 30, 255);
+    color: black;
+    text-decoration: none;
+    
+  
+  }
+  
+  
+  .header-right {
+    float: center;
+    padding: 50px 12px 10px 400px ;
+  
+   
+  }
+  .header-right a.offline {
+    text-decoration: none;
+    color:  black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .logo1 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40px;
+    float: right;
+  }
+   
+  .headeruser a {
+    float: right;
+    
+    padding: 1px 20px 1px 10px;
+   
+  }
+  .footer {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(203, 30, 255);
+    text-align: center;
+    z-index: -1;
+    
+  }
+  .verticalDiscover {
+    width: 200px;
+    position: absolute;
+    
+    
+    
+  }
+  
+  .verticalDiscover a {
+    
+    
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .verticalDiscover a:hover {
+    background-color: #ccc;
+  }
+  .verticalPhotographer {
+   position: absolute;
+    width: 200px;
+    left:200px;
+  
+    
+  }
+  .verticalPhotographer a.active{
+    background-color:  rgb(203, 30, 255);
+    color: black;
+    text-decoration: none;
+  }
+  
+  .verticalPhotographer a {
+    
+    color:black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    
+  }
+  
+  .verticalPhotographer a:hover {
+     background-color: #ccc;
+     
+  }
+  .verticalCompany {
+    position: absolute;
+     width: 200px;
+     left:400px;
+   
+     
+   }
+   
+   .verticalCompany a {
+     
+     color: black;
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+     
+   }
+   
+   .verticalCompany a:hover {
+     background-color: #ccc;
+   }
+  
+   .verticalNeedHelp {
+    position: absolute;
+     width: 200px;
+     left:600px;
+   
+     
+   }
+   
+   .verticalNeedHelp a {
+     
+     color: black;
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+     
+   }
+   
+   .verticalNeedHelp a:hover {
+     background-color: #ccc;
+   }
+   .opentime{
+     font-size:10px;
+   }
+   .line{
+     position: relative;
+    
+   }
+   .logo2 {
+     position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
+    left:1000px;
+  }
+  
+  .logo3 {
+    position: absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    left:1000px;
+    top:100px;
+    
+  }
+  .line1{
+  
+    position: relative;
+    top:230px;
+  }
+  
+  .logo4{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    top: 240px;
+    left:10px
+    
+  
+  }
+  
+  .logo4:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo3:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo2:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .create{
+    position: absolute;
+    font-size:10px;
+    color:rgb(203, 30, 255);
+    top:250px;
+    left:80px;
+  }
+  .logo5{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1000px
+    
+  
+  }
+  .logo6{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1050px
+    
+  
+  }
+  .logo7{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1100px
+    
+  
+  }
+  .logo8{
+    position:absolute;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    top: 250px;
+    left:1150px
+    
+  
+  }
+  .logo5:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo6:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo7:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .logo8:hover{
+  
+    background-color: #ddd;
+    color: black;
+  }
+  .line2{
+  
+    position: relative;
+    top:280px;
+  }
+  .joinourteam{
+   
+    
+    background-image: url(../images/pattern-white.png);
+    background-size: cover;
+    margin-top: 0%;
+    width: 100%;
+    height:700px;
+
+  }
+  
+    
+ 
+  .become{
+    width:550px;
+    height:280px;
+    
+    position: relative;
+    top:180px;
+    left:100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .become-1{
+    font-weight: 500;
+    font-size: 60px;
+   position: relative;
+   margin-top: 0px;
+   margin-bottom: 0px;
+  }
+  .become-2{
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .line{
+      margin-top: 0px;;
+  }
+  .button-1{
+
+      width: 480px;
+      text-align: center;
+    position: relative;
+    top:5px;
+    left:740px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+
+  .button-2{
+    background-color:blueviolet;
+    position: relative;
+    width: 480px;
+    left: 740px;
+    border-radius: 12px;
+    top:20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+a.button-1:hover{
+    background-color: rgba(137, 43, 226, 0.801);
+    color:black;
+}
+a.button-2:hover{
+    background-color: rgba(137, 43, 226, 0.801);
+    color:black;
+}
+
+
+
+
+input[type=text], input[type=password] {
+    width: 1100px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  button {
+    background-color:blueviolet;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 12px;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: blueviolet;
+    border-radius: 12px;
+  }
+  
+
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+ 
+  .container {
+    padding: 16px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .joinourteam-1{
+   
+    
+    background-image: url(../images/pattern-white.png);
+    background-size: cover;
+    margin-top: 0%;
+    width: 100%;
+    height:900px;
+
+
+  }
+
+  .file{
+
+    font-weight: 700;
+  }
+  .open-button {
+    background-color:blueviolet;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 150px;
+    border-radius: 20px;
+    outline: transparent;
+  }
+  
+  
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    outline: transparent;
+  }
+  
+  
+  .form-container {
+    max-width: 300px;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    outline: transparent;
+    border-radius: 20px;
+  }
+  
+  
+  .form-container textarea {
+    width: 250px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 150px;
+  }
+  
+  
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  .form-container .btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 12px;
+    outline: transparent;
+  }
+  
+  
+  .form-container .cancel {
+    background-color:blueviolet;
+    border-radius: 12px;
+    outline: transparent;
+  }
+  
+
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  .hrequired{
+    position: relative;
+    text-align: center;
+    width: 400px;
+    left :700;
+    top:100px;
+    top:60px;
+  }
+  .hrequired h1{
+    font-weight: 400;
+    
+
+
+  }
+  .imgrequired{
+   
+      position:absolute;
+      background-image: url(../images/photog-4.jpg);
+      background-size: cover;
+      margin-top: 50px;
+      margin-left: 100px;
+      width: 395px;
+      height:474px;
+      border-radius: 12px;
+  
+  
+
+  }
+  .weddingEvent-1{
+
+    margin-top: 100px;
+    margin-left: 605px;
+    background-color: transparent;
+    width: 261px;
+    height: 216px;
+    color: slategray;
+
+
+  }
+  .weddingEvent-2{
+
+    margin-top: -215px;
+    margin-left: 886px;
+    background-color: transparent;
+    width: 261px;
+    height: 216px;
+    color: slategray;
+
+
+  }
+  .weddingEvent-3{
+
+    margin-top: 10px;
+    margin-left: 605px;
+    background-color: transparent;
+    width: 261px;
+    height: 216px;
+    color: slategray;
+
+
+  }
+  
+  .weddingEvent-4{
+
+    margin-top: -216px;
+    margin-left: 886px;
+    background-color:transparent;
+    width: 261px;
+    height: 216px;
+    color: slategray;
+
+
+  }
+  .joinourteam-2{
+   
+    
+    background-image: url(../images/pattern-white.png);
+    background-size: cover;
+    margin-top: 0%;
+    width: 100%;
+    height:600px;
+
+
+  }
+  .joinourteam-4{
+   
+    
+    background-image: url(../images/pattern-white.png);
+    background-size: cover;
+    margin-top: 0%;
+    width: 100%;
+    height:500px;
+
+
+  }
+  .required{
+    width: 100%;
+    height:700px;
+    background-color: whitesmoke;
+
+
+  }
+  .imgrequired-1{
+   
+    position:absolute;
+    background-image: url(../images/photog-3.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 395px;
+    height:474px;
+    border-radius: 12px;
+
+}
+.weddingEvent-11{
+
+  margin-top: 100px;
+  margin-left: 605px;
+  background-color: transparent;
+  width: 499px;
+  height: 152px;
+  color: slategray;
+
+
+}
+.weddingEvent-22{
+
+  margin-top: 20px;
+  margin-left: 600px;
+  background-color: transparent;
+  width: 499px;
+  height: 152px;
+  color: slategray;
+
+
+}
+.weddingEvent-33{
+
+  margin-top: 60px;
+  margin-left: 598px;
+  background-color: transparent;
+  width: 499px;
+  height: 152px;
+  color: slategray;
+
+
+}
+.joinourteam-5{
+   
+    
+  background-image: url(../images/pattern-white.png);
+  background-size: cover;
+  margin-top: 0%;
+  width: 100%;
+  height:900px;
+
+
+}
+.hrequired-1{
+  position: relative;
+  text-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  top:60px;
+}
+.hrequired-1 h1{
+  font-weight: 400;
+  
+
+
+}
+ul.breadcrumb {
+  position: absolute;
+padding: 10px 16px;
+list-style: none;
+background-color: transparent;
+}
+ul.breadcrumb li {
+display: inline;
+font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+padding: 8px;
+color: black;
+content: "/\00a0";
+}
+ul.breadcrumb li a {
+color: #0275d8;
+text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+color: #01447e;
+text-decoration: underline;
+}
+
+  
+  
