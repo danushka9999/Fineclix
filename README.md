@@ -5,7 +5,7 @@ This dynamic website was my first year second semester Internet and Web Technolo
 
 In this Project I implemented these functions- 
 
-index.php               -This is the Home page of Fineclix websit and on this user can get a idea about this website(chat with Us function implemented)
+index.php               -This is the Home page of Fineclix websit and on this user can get a idea about this website(chat with Us function implemented)</br>
 (header and footer)
 joinourteam.php         -This is the main page that redirects to requiredskills.php and photographerregister.php.
 Requiredskils.php       -This is just a static page that shows required qualification to join Fineclix.
