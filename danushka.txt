@@ -1,6 +1,4 @@
-MemberId      -IT20244552
-Member Name   -Ranasingeh R.A.D.M
-Contact No    -0774020028
+
 E-mail Address-it20244552@my.sliit.lk
 
 Implemented Functions   - 
